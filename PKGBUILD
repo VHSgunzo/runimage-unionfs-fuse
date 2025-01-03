@@ -14,5 +14,5 @@ source=("$url/releases/download/v$pkgver/unionfs-${CARCH}")
 sha256sums=('SKIP')
 
 package() {
-  install -Dm755 "unionfs-${CARCH}" "${pkgdir}/var/RunDir/static/unionfs"
+  install -Dm755 "unionfs-${CARCH}" "${pkgdir}/var/RunDir/sharun/bin/unionfs"
 }
